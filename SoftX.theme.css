@@ -50,4 +50,7 @@
   --rs-invisible-color: #747f8d; /* Default: #747f8d */
   --rs-phone-color: var(--rs-online-color); /* Color of the phone for mobile users | Default: var(--rs-online-color) */
   --rs-phone-visible: none; /* Visibility of the phone for mobile users | Default: block */
+
+  /* ServerRings Variables */
+  --server-glow-intensity: 0;
 }
