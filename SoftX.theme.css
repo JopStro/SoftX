@@ -32,6 +32,7 @@
   --font: "gg sans"; /* Custom font | Default: 'Inter' */
   --avatar-roundness: 50%; /* Roundness for avatars. | 0% = Square, 50% = Circle | Default: 50% */
   --server-roundness: 50%; /* Roundness for servers. | 0% = Square, 50% = Circle | Default: 50% */
+  --member-height: 45px;
   /*
    * RadialStatus veriables
    */
