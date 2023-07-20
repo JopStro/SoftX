@@ -32,7 +32,10 @@
   --font: "gg sans"; /* Custom font | Default: 'Inter' */
   --avatar-roundness: 50%; /* Roundness for avatars. | 0% = Square, 50% = Circle | Default: 50% */
   --server-roundness: 50%; /* Roundness for servers. | 0% = Square, 50% = Circle | Default: 50% */
+  --server-glow-intensity: 0;
   --member-height: 45px;
+  --toolbar-height: 52px;
+
   /*
    * RadialStatus veriables
    */
@@ -51,7 +54,4 @@
   --rs-invisible-color: #747f8d; /* Default: #747f8d */
   --rs-phone-color: var(--rs-online-color); /* Color of the phone for mobile users | Default: var(--rs-online-color) */
   --rs-phone-visible: none; /* Visibility of the phone for mobile users | Default: block */
-
-  /* ServerRings Variables */
-  --server-glow-intensity: 0;
 }
