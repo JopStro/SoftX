@@ -1,13 +1,20 @@
-#app-mount .guilds__2b93a .tree__7a511 {
+#app-mount {
+  --iconOffset: 0px;
+}
+#app-mount .guilds_c48ade .tree_ef3116 {
   outline: none !important;
 }
-#app-mount .guilds__2b93a .scroller__3d071 {
-  margin-bottom: var(--user-area, 220px);
-}
-#app-mount .guilds__2b93a .unreadMentionsIndicatorBottom_fdb943 {
+#app-mount .guilds_c48ade .unreadMentionsIndicatorBottom_ef3116 {
   bottom: calc(var(--user-area) + 10px);
 }
-#app-mount .panels__58331 > .container_ca50b9 {
+#app-mount .guilds_c48ade .footer__214dc {
+  width: 100%;
+  margin-bottom: calc(var(--user-area, 200px) + var(--iconOffset));
+}
+#app-mount .guilds_c48ade .footer__214dc .listItem__650eb {
+  margin-bottom: 0px;
+}
+#app-mount .panels_c48ade .container__37e49 {
   background: transparent;
   position: fixed;
   bottom: 0;
@@ -18,36 +25,36 @@
   height: auto;
   border-top: none;
 }
-#app-mount .panels__58331 > .container_ca50b9 > [style="flex: 0 1 auto;"] {
+#app-mount .panels_c48ade .container__37e49 .avatarWrapper__37e49 {
+  margin-right: 0;
+  margin-top: 12px;
+}
+#app-mount .panels_c48ade .container__37e49 .avatarWrapper__37e49 .svg__44b0c {
+  width: 50px;
+  height: 50px;
+  transform: translate(1px, 1px);
+}
+#app-mount .panels_c48ade .container__37e49 .avatar__37e49 {
+  width: 42px !important;
+  height: 42px !important;
+}
+#app-mount .buttons__37e49 {
   flex-direction: column;
   width: 100%;
 }
-#app-mount .panels__58331 > .container_ca50b9 > [style="flex: 0 1 auto;"] .button__4f306 {
+#app-mount .buttons__37e49 .button__67645 {
   width: 100%;
   border-radius: 0;
   padding: 12px 0;
   height: auto;
 }
-#app-mount .panels__58331 > .container_ca50b9 .avatarWrapper_ba5175 {
-  margin-right: 0;
-  margin-top: 12px;
-}
-#app-mount .panels__58331 > .container_ca50b9 .avatarWrapper_ba5175 .svg_f5b652 {
-  width: 50px;
-  height: 50px;
-  transform: translate(1px, 1px);
-}
-#app-mount .panels__58331 > .container_ca50b9 .avatar_f8541f {
-  width: 42px !important;
-  height: 42px !important;
-}
-#app-mount .nameTag__0e320 {
+#app-mount .nameTag__37e49 {
   display: none;
 }
-#app-mount .avatarWrapper_ba5175 {
+#app-mount .avatarWrapper__37e49 {
   margin: 0;
   min-width: unset;
 }
-#app-mount .avatarWrapper_ba5175:hover {
+#app-mount .avatarWrapper__37e49:hover {
   background: transparent;
 }
